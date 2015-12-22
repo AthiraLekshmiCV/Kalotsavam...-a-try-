@@ -1,0 +1,173 @@
+
+html{
+	
+
+	background-size:100%;
+        background-size: auto;
+        
+
+}
+body{
+     
+    background-size:100%;
+    background-repeat: repeat;
+}   
+.one{
+	position:absolute;
+        height:200px;
+	background-color:#74AFAD;
+        top: 0; right: 0; bottom: 0; left: 0;
+	text-align:center ;
+	font-family: "Times New Roman", serif;
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 0px;
+	color:white;
+	width:100%;
+
+  
+ 
+}
+.tt{
+	position:absolute;	
+	background:#558C89;
+	height:50px;
+	width:100%;
+	top:100px;
+	left:0px;
+	right:0px;
+	color:white;
+	text-align:center;
+	line-height:50px;
+
+}
+
+ul{
+	list-style-type: none;
+	margin:15px 0px;
+	
+}
+li{
+	display:inline;
+}
+	
+.one.img{
+	height:auto;
+	width:100%;
+	
+
+}
+
+.myButton {
+	position:relative;
+	top:20px;
+	background-color:#74afad;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #74afad;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #043c6d;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	
+	top:1px;
+}
+.button-div{
+	position:absolute;
+	width:300px;
+	background-color:#558C89;
+	height:300px;
+	float:left;
+	top:250px;
+	left:50px;
+
+
+}
+
+.two {
+	
+	position:absolute;
+	background-color:#D9853B;
+        float:right;
+	width:300px;
+	top:310px;
+	right:950px;
+	height:300px;;
+	
+
+}
+.two img{
+	border:30px solid white;
+	
+	margin-top:30px;
+	margin-left:70px;
+	width:700px;
+	height:400px;
+}
+#im1{
+
+	height:350px;
+	width:500px;
+	position:absolute;
+	top:250px;
+	float:right;
+	right:70px;
+}.button-div p{
+	position:absolute;
+	top:-15px;
+	left:10px;
+	color:white;
+	font-family: Cedarville Cursive;
+	font-size: 20px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 400;
+	width:100%;
+	
+}
+.three p{
+	position:absolute;
+	top:50px;
+	left:20px;
+	color:white;
+	margin:60px;
+	font-family: Cedarville Cursive;
+	font-size: 30px;
+	font-style: italic bold;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 31px;
+
+	
+
+}
+.three {
+	
+	position:absolute;
+	background-color:#74AFAD;
+        float:right;
+	width:300px;
+	top:350px;
+	right:900px;
+	height:300px;;
+	
+
+}
+#e{
+	width:2500px;
+	height:100px;
+	position:absolute;
+	top:0;
+	left:0;
+}

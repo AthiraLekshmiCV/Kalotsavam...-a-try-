@@ -1,0 +1,94 @@
+
+
+#sidebar{
+	position:fixed;
+	top:0;
+	left:0;
+	float:left;
+	background-color:#DE1B1B;
+	height:100%;
+	width:20%;
+	font-size:69px;
+
+
+}
+ul{
+	list-style-type:none;
+}
+html{
+
+	background:#F3FAB6;
+}
+#h1{
+	background-color:#7D1935;
+	position:absolute;
+	top:20px;
+	left:20%;
+	right:100px;
+	height:50px;
+	text-indent:350px;
+	line-height:50px;
+	color:white;
+	font-family:serif;
+	font-size:50px;
+
+
+
+}
+#h2{
+	background-color:#A8CD1B;
+	position:absolute;
+	top:250px;
+	left:20%;
+	right:100px;
+	height:50px;
+	text-indent:350px;
+	line-height:50px;
+	color:white;
+	font-family:serif;
+	font-size:50px;
+
+
+
+}
+#h3{
+	background-color:#A2AB58;
+	position:absolute;
+	top:450px;
+	left:20%;
+	right:100px;
+	height:50px;
+	text-indent:400px;
+	line-height:50px;
+	color:white;
+	font-family:serif;
+	font-size:50px;
+
+
+
+}
+#h4{
+	background-color:#4A96AD;
+	position:absolute;
+	top:650px;
+	left:270px;
+	right:100px;
+	height:50px;
+	text-indent:350px;
+	line-height:50px;
+	color:white;
+	font-family:serif;
+	font-size:50px;
+
+
+
+}/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 Nov, 2015, 10:06:41 PM
+    Author     : new
+*/
+

@@ -1,0 +1,125 @@
+html{
+background:#FDF3E7;
+}
+
+#myButton{
+	float:right;
+	background-color:#FDF3E7;
+	border:none;
+	font-size:20px;
+	cursor:pointer;
+}
+#one{
+	float:right;
+	position:absolute;
+	height:900px;;
+	width:100px;
+	top:0;
+	left:0;
+	
+	
+	background-color:black;
+
+}
+#aa {
+		list-style-type:none;
+		font-size:50px;
+		color:white;
+		line-height:90px;
+}
+#dance{
+	position:absolute;
+	top:100px;
+	left:200px;
+	background-color:#74AFAD;
+	height:300px;
+	width:250px;
+
+
+
+}
+ul{
+	list-style-type:none;
+	color:white;
+	font-style:italic;
+	line-height:50px;
+}
+#dance:hover{
+	background:#C63D0F;
+
+}
+#music{
+	
+	position:absolute;
+	top:100px;
+	left:500px;
+	background-color:#005A31;
+	height:300px;
+	width:250px;
+
+}
+#music:hover{
+	background:#DE1B1B;
+
+}
+h1{
+	text-align:center;
+	color:#FFF056;
+	
+
+}
+#drama{
+	
+	position:absolute;
+	top:100px;
+	left:800px;
+	background-color:#7D1935;
+	height:300px;
+	width:250px;
+
+}
+#drama:hover{
+	background-color:#74AFAD;
+}
+#mime{
+	
+	position:absolute;
+	top:500px;
+	left:200px;
+	background-color:#DE1B1B;
+	height:300px;
+	width:250px;
+
+}
+#mime:hover{
+	background:#005A31;
+
+}
+#literaryevents{
+	
+	position:absolute;
+	top:500px;
+	left:500px;
+	background-color:#005A31;
+	height:300px;
+	width:250px;
+
+}
+#literaryevents:hover{
+	background:#DE1B1B;
+
+}
+#painting{
+	
+	position:absolute;
+	top:500px;
+	left:800px;
+	background-color:#7D1935;
+	height:300px;
+	width:250px;
+
+}
+#painting:hover{
+	background:#C63D0F;
+
+}
