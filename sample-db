@@ -1,0 +1,77 @@
+﻿select * from groupdance_girls;
+select * from gs;
+delete from groupdance_girls;
+select * from groupdance_girls;
+
+select * from groupdance_girls;
+
+select * from student;
+
+drop table groupdance_girls; 
+drop table student purge ;
+drop table tv;
+create table student(id varchar(50),name1 varchar(50),gender varchar(1),house varchar(30), primary key(id,house));
+create table groupdance_girls(id varchar(50),house varchar(30) ,gid integer, foreign key(id,house) references student(id,house));
+
+create table gs(id varchar(50),house varchar(30) ,gid integer, foreign key(id,house) references student(id,house));
+
+create table tv(id varchar(50),house varchar(30) ,gid integer, foreign key(id,house) references student(id,house));
+
+
+create table dr(id varchar(50),house varchar(30) ,gid integer, foreign key(id,house) references student(id,house));
+
+
+create table gm(id varchar(50),house varchar(30) ,gid integer, foreign key(id,house) references student(id,house));
+
+create table ms(id varchar(50),house varchar(30) ,gid integer, foreign key(id,house) references student(id,house));
+
+
+create table ng(id varchar(50),house varchar(30) ,gid integer, foreign key(id,house) references student(id,house));
+
+
+create table cd(id varchar(50),house varchar(30) ,gid integer, foreign key(id,house) references student(id,house));
+
+
+create table mm(id varchar(50),house varchar(30) ,gid integer, foreign key(id,house) references student(id,house));
+
+
+INSERT into student values ('AM.EN.U4CSE12011', 'AthiraLekshmi C V' , 'F','CHINMAYI');
+
+INSERT into student values ('AM.EN.U4CSE12001', 'Aishvariya' , 'F','AMRITAMAYI');
+INSERT into student values ('AM.EN.U4ME1203','Shyam','M','JYOTHIRMAYI');
+INSERT into student values ('AM.EN.U4ME14132','Praveen','M', 'AMRITAMAYI');
+INSERT into student values ('AM.EN.U4CSE12002','Aarthi','F','ANANDMAYI');
+INSERT into student values ('AM.EN.U4ECE13112','Divya','F','CHINMAYI');
+INSERT into student values ('AM.EN.U4EEE13112','RanbiX`r','M','CHINMAYI');
+INSERT into student values ('AM.EN.U4ECE14123','Siddarth','M','ANANDMAYI');
+INSERT into student values ('AM.EN.U4ME13145','Keerthi','F','ANANDMAYI');
+INSERT into student values ('AM.EN.U4ME12025', 'Anurag' , 'M','AMRITAMAYI');
+INSERT into student values ('AM.EN.U4EEE14110', 'Hasini' , 'F','AMRITAMAYI');
+
+
+
+INSERT into student values ('AM.EN.U4ECE13023','Krishna','M','JYOTHIRMAYI');
+INSERT into student values ('AM.EN.U4ME14111','Manoj','M','JYOTHIRMAYI');
+INSERT into student values ('AM.EN.U4CSE12007','Dharshini','F','ANANDMAYI');
+
+INSERT into student values ('AM.EN.U4ME13134','Sundari','F','JYOTHIRMAYI');
+INSERT into student values ('AM.EN.U4CSE11001','Dhanu','F','ANANDMAYI');
+INSERT into student values ('AM.EN.U4CSE11101','Shakthi','M','ANANDMAYI');
+INSERT into student values ('AM.EN.U4ECE11019', 'Ashwin' , 'M','AMRITAMAYI');
+INSERT into student values ('AM.EN.U4ECE12003', 'Suhas' , 'M','AMRITAMAYI');
+INSERT into student values ('AM.EN.U4EEE13007','Jishnu','M','CHINMAYI');
+INSERT into student values ('AM.EN.U4EEE14120','Janavi','F','CHINMAYI');
+INSERT into student values ('AM.EN.U4ME12001','Naveen','M','JYOTHIRMAYI');
+INSERT into student values ('AM.EN.U4EEE14047','Sahana','F','JYOTHIRMAYI');
+INSERT into student values ('AM.EN.U4ECE11009', 'Samiksha' , 'F','AMRITAMAYI');
+INSERT into student values ('AM.EN.U4CSE11111','Sarthak','M','ANANDMAYI');
+INSERT into student values ('AM.EN.U4EEE13001','Nithya','F','CHINMAYI');
+INSERT into student values ('AM.EN.U4ME12119','Ramesh','M','JYOTHIRMAYI');
+
+
+
+
+
+
+
+
